@@ -202,7 +202,8 @@ button{
     width: 100%;
     height: auto;
     min-height: 700px;
-    background-image: url(../images/bg-image.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)),
+        url(../images/bg-image.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -344,4 +345,3 @@ font-size: 15px;
 .footer_wrapper .copyright-text a{
     color: var(--primary-color);
 }
-
